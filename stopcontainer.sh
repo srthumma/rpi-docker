@@ -1,0 +1,5 @@
+INSTANCE_NAME=$1
+
+docker stop $INSTANCE_NAME
+docker kill $INSTANCE_NAME
+docker rm $INSTANCE_NAME
